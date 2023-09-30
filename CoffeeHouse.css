@@ -1,9 +1,7 @@
 *{
     margin: 0 auto;
     width: 100%;
-    max-width: 1020px;
-    /* min-width: 640px; */
-   
+    max-width: 1020px;  
 }
 html{
     background: #e6e6fa;
@@ -106,4 +104,9 @@ address span{
     display: grid;
     background-color: #3399cc;
     
+}
+/* footer */
+footer{
+    text-align: center;
+    font-size: 14px;
 }
