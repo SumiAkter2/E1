@@ -11,7 +11,7 @@ html {
 /* header */
 header {
     background-color: #000033;
-    color: rgb(202, 198, 198);
+    color: #90c7e3;
     text-align: center;
     
 }
@@ -47,7 +47,7 @@ nav ul li a:hover {
 /* section */
 section>div>p {
     background-color: #000033;
-    color: rgb(202, 198, 198);
+    color: #90c7e3;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -79,5 +79,5 @@ height: 280px;
 footer {
     margin-top: 20px;
     text-align: center;
-    font-size: 14px;
+    font-size: 14px;  
 }

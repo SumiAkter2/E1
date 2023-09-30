@@ -9,7 +9,7 @@ html{
 }
 header {
     background-color: #000033;
-    color: rgb(202, 198, 198);
+    color: #90c7e3;
     text-align: center;
     height: 80px;
 }
@@ -49,7 +49,7 @@ nav ul li a:hover{
 }
 section>div>p{
 background-color: #000033;
-color: rgb(202, 198, 198);
+color: #90c7e3;
 font-size: 20px;
 font-weight: 600;
 margin-bottom: 20px;
