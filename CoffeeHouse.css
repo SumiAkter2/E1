@@ -19,6 +19,7 @@ header h1 {
     text-shadow: -4px 4px 2px red;
     padding-top: 10px;
 }
+/* section */
 section{
     display: flex;
     justify-items: space-between;
@@ -26,17 +27,24 @@ section{
   
 }
 .text-container nav ul{
-  
-  text-align: center;
-   height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
     
 }
+
 nav ul li{
     list-style: none;
+    
 }
 nav ul li a{
-text-decoration: none;
-
+text-decoration: underline;
+background-color: #3399cc;
+}
+nav ul li a:hover{
+    color:green;
 }
 .text-container{
     width: 1200px;
@@ -46,20 +54,56 @@ background-color: #000033;
 color: rgb(202, 198, 198);
 font-size: 20px;
 font-weight: 600;
+margin-bottom: 20px;
 }
-.img-container img{
-   width: 150px;
-   height: 100px;
-   border-bottom: 2px solid rgb(219, 217, 217);
-   padding:0px 20px 5px 0px;
+/* description  */
+#description{
+    width: 500px;
+    margin: 0;
    
 }
-
+#description >p{
+    padding: 5px 0 20px 0;
+}
+#description >p span{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 50px;
+    
+}
+#description ol{
+    list-style-type: lower-alpha;
+    padding: 20px 40px;
+}
+/* address  */
+address>span{
+    font-weight: bold;
+}
+address {
+    font-size: 18px;
+    font-style: normal;
+}
+address span{
+    margin-top: 20px;
+}
+#description p{
+    padding-top: 20px;
+}
+/* img-container */
+.img-container img{
+   width: 150px;
+   height: 150px;
+   border-bottom: 2px solid rgb(219, 217, 217);
+   padding:10px 20px 5px 0px;
+   
+}
+.img-container>img{
+    padding-top:0px ;
+}
 .img-container{
     width: 200px;
     justify-content: start;
     display: grid;
     background-color: #3399cc;
-    /* border:; */
     
 }
